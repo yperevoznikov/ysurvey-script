@@ -16,35 +16,35 @@ $form = new YSurvey_Form();
 ```
 
 * The form is empty and we can add elements in it:  
-#### Input text field
+#### Input text field:
 ```php
 $form->addField(new YSurvey_Field_Input(array(
 	'label' => 'First name',
 	'name' => 'first_name',
 )))
 ```
-#### Drop down menu (select html tag)
+#### Drop down menu (select html tag):
 ```php
 $form->addField(new YSurvey_Field_Select(array(
 	'name' => 'First name',
 	'value' => 'Save',
 )));
 ```
-#### Group of radio buttons
+#### Group of radio buttons:
 ```php
 $form->addField(new YSurvey_Field_Radiobuttons(array(
 	'name' => 'First name',
 	'value' => 'Save',
 )));
 ```
-#### Group of checkboxes
+#### Group of checkboxes:
 ```php
 $form->addField(new YSurvey_Field_Checkboxes(array(
 	'name' => 'First name',
 	'value' => 'Save',
 )));
 ```
-#### Button to submit form
+#### Button to submit form:
 ```php
 $form->addField(new YSurvey_Field_Submit(array(
 	'name' => 'First name',
@@ -53,7 +53,9 @@ $form->addField(new YSurvey_Field_Submit(array(
 ```
 
 * Finally flush html form
-`$form->render();`
+```php
+$form->render();
+```
 
 ----
 
