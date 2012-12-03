@@ -4,7 +4,7 @@
  *
  * @package    YSurvey_Field
  * @copyright  Copyright (c) 2012 Yuriy Perevoznikov. (http://yperevoznikov.com)
- * @license    http://projects.yperevoznikov.com/license/     New BSD License
+ * @license    http://projects.yperevoznikov.com/license/new-bsd     New BSD License
  */
 
 /**
@@ -12,7 +12,7 @@
  *
  * @package    YSurvey
  * @copyright  Copyright (c) 2012 Yuriy Perevoznikov. (http://yperevoznikov.com)
- * @license    http://projects.yperevoznikov.com/license/    New BSD License
+ * @license    http://projects.yperevoznikov.com/license/new-bsd    New BSD License
  */
 abstract class YSurvey_Field_Base {
 	
